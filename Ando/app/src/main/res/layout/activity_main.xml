@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calculater"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C9BAF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Calculator"
+        android:layout_width="254dp"
+        android:layout_height="78dp"
+        android:layout_above="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="37dp"
+        android:text="Calculator"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/First"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Secand"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Firs Number" />
+
+    <EditText
+        android:id="@+id/Secand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="77dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Secand Number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="202dp"
+        android:fontFeatureSettings="50"
+        android:text="Calculate"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="128dp"
+        android:layout_height="134dp"
+        android:layout_above="@+id/First"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="18dp"
+        app:srcCompat="@drawable/images" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="91dp"
+        android:textSize="24sp" />
+</RelativeLayout>
